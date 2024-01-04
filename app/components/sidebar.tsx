@@ -169,7 +169,7 @@ export function SideBar(props: { className?: string }) {
             href={"https://afdian.net/a/aiaide"}
             style={{ textDecoration: "none", color: "purple" }}
           >
-            点击前往爱发电⚡购买会员，无限次数使用GPT4
+            点击前往爱发电⚡购买会员，无限次数使用
           </a>
           <br />
           <span style={{ color: "green" }}></span>
