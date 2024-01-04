@@ -7,13 +7,19 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      ? "检测到无效 Key，请前往[设置](/#/settings)页检查 Key 是否配置正确。"
+      : "Ai助手key不正确或为空，请前往[页面](/#/auth)输入正确的key，" +
+        "\n" +
+        "\n" +
+        "[👉点击前往爱发电⚡️👈购买会员key，使用GPT4等最新模型](https://afdian.net/a/aiaide)" +
+        "\n" +
+        "\n" +
+        "[或👉点击加群获取Ai助手免费版，免费使用GPT3.5👈](https://qm.qq.com/cgi-bin/qm/qr?k=Y4NLz9jAoSNNLfQukoipTFKqioc3yugO&jump_from=webapi&authKey=gxNHHJ9eLgDG1/EEGT2MUOibbxgJGSw5+fSXSni3mD3qc0b+eWcTqtXObxz4kxsk)",
   },
   Auth: {
-    Title: "需要密码",
+    Title: "需要Ai助手会员Key",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
+    SubTips: "输入你的Ai助手key",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -289,7 +295,7 @@ const cn = {
         ApiKey: {
           Title: "API Key",
           SubTitle: "使用自定义 OpenAI Key 绕过密码访问限制",
-          Placeholder: "OpenAI API Key",
+          Placeholder: "Ai助手Key",
         },
 
         Endpoint: {

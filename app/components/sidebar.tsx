@@ -155,10 +155,24 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          Ai助手Pro
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          您的下一代专属Ai助手
+          <br />
+          <span style={{ color: "red" }}>
+            更新预告：图片理解、文生图、外部文件、语音交互。
+          </span>
+          <br />
+          <a
+            target="_blank"
+            href={"https://afdian.net/a/aiaide"}
+            style={{ textDecoration: "none", color: "purple" }}
+          >
+            点击前往爱发电⚡购买会员，无限次数使用GPT4
+          </a>
+          <br />
+          <span style={{ color: "green" }}></span>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -216,11 +230,11 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
-          </div>
+          {/*<div className={styles["sidebar-action"]}>*/}
+          {/*  <a href={REPO_URL} target="_blank" rel="noopener noreferrer">*/}
+          {/*    <IconButton icon={<GithubIcon />} shadow />*/}
+          {/*  </a>*/}
+          {/*</div>*/}
         </div>
         <div>
           <IconButton
