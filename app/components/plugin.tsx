@@ -164,6 +164,7 @@ export function PluginPage() {
 
   const allPlugins = pluginStore
     .getAll()
+    .filter((e) => e.name === "搜索引擎" || e.name === "DALL·E")
     .filter(
       (m) => !getLang() || m.lang === (getLang() == "cn" ? getLang() : "en"),
     );
