@@ -161,7 +161,7 @@ export function SideBar(props: { className?: string }) {
           您的下一代专属Ai助手
           <br />
           <span style={{ color: "red" }}>
-            更新预告：图片理解、文生图、外部文件、语音交互。
+            已更新：图片理解、文生图。欢迎体验👏
           </span>
           <br />
           <a
