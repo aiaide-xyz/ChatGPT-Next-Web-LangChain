@@ -635,7 +635,6 @@ export const useChatStore = createPersistStore(
         toBeSummarizedMsgs.unshift(get().getMemoryPrompt());
 
         const lastSummarizeIndex = session.messages.length;
-
         console.log(
           "[Chat History] ",
           toBeSummarizedMsgs,
